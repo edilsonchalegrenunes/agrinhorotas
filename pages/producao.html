@@ -3,11 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Produção no Campo - Rota da Produção</title>
+    <title>Produção no Campo: O Coração do Agronegócio - Rota da Produção</title>
     <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/subpages.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Controles de Acessibilidade (devem ficar no início para funcionar com CSS) -->
+    <input type="radio" name="font-size" id="font-small" class="accessibility-input">
+    <input type="radio" name="font-size" id="font-normal" class="accessibility-input" checked>
+    <input type="radio" name="font-size" id="font-large" class="accessibility-input">
+    
+    <input type="radio" name="background-theme" id="bg-normal" class="accessibility-input" checked>
+    <input type="radio" name="background-theme" id="bg-dark" class="accessibility-input">
+    
+    <input type="checkbox" id="accessibility-menu-toggle" class="accessibility-input">
+
+    <!-- Widget de Acessibilidade -->
+    <div class="accessibility-widget">
+        <label for="accessibility-menu-toggle" class="accessibility-button" title="Opções de Acessibilidade">
+            <span class="accessibility-icon">♿</span>
+        </label>
+        
+        <div class="accessibility-panel">
+            <div class="accessibility-header">
+                <h3>Acessibilidade</h3>
+            </div>
+            
+            <div class="accessibility-group">
+                <h4>Fonte</h4>
+                <div class="accessibility-controls">
+                    <label for="font-small" class="accessibility-option compact">
+                        <span class="option-text">A-</span>
+                    </label>
+                    <label for="font-normal" class="accessibility-option compact">
+                        <span class="option-text">A</span>
+                    </label>
+                    <label for="font-large" class="accessibility-option compact">
+                        <span class="option-text">A+</span>
+                    </label>
+                </div>
+            </div>
+            
+            <div class="accessibility-group">
+                <h4>Tema</h4>
+                <div class="accessibility-controls">
+                    <label for="bg-normal" class="accessibility-option theme-option compact">
+                        <span class="theme-preview normal-theme"></span>
+                        <span class="option-label">Normal</span>
+                    </label>
+                    <label for="bg-dark" class="accessibility-option theme-option compact">
+                        <span class="theme-preview dark-theme"></span>
+                        <span class="option-label">Escuro</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+    </div>
+
     <!-- Cabeçalho -->
     <header>
         <div class="container header-container">
@@ -43,10 +96,10 @@
     </div>
 
     <!-- Banner da Página -->
-    <section class="banner05">
-        <div class="container banner-content">
-            <h1>Produção no Campo</h1>
-            <p>O início de toda a cadeia produtiva: cultivo, criação e colheita dos produtos agrícolas que alimentam o Brasil e o mundo.</p>
+    <section class="banner02">
+        <div class="producao_banner">
+            <h1>Produção no Campo: O Coração do Agronegócio</h1>
+            <p>Descubra o ponto de partida de toda a cadeia produtiva: o cultivo, a criação e a colheita dos produtos agrícolas que nutrem o Brasil e o mundo, impulsionando nossa economia e garantindo a segurança alimentar.</p>
         </div>
     </section>
 
@@ -55,28 +108,28 @@
         <div class="container">
             <div class="content-grid">
                 <div class="main-content">
-                    <h2>Agricultura Brasileira</h2>
-                    <p>O Brasil é um dos maiores produtores agrícolas do mundo, com destaque para culturas como soja, milho, café, cana-de-açúcar, algodão e frutas. A diversidade de climas e solos permite uma grande variedade de cultivos ao longo do ano.</p>
+                    <h2>A Força da Agricultura Brasileira</h2>
+                    <p>O Brasil se consolida como um gigante agrícola global, destacando-se na produção de culturas essenciais como soja, milho, café, cana-de-açúcar, algodão e uma vasta gama de frutas. Nossa diversidade climática e a riqueza dos solos proporcionam um cenário ideal para uma produção agrícola contínua e variada ao longo de todo o ano.</p>
                     
-                    <h3>Principais Culturas</h3>
-                    <p>A soja é o principal produto agrícola brasileiro, seguida pelo milho, cana-de-açúcar e café. O país também se destaca na produção de frutas tropicais, como laranja, manga e abacaxi, além de hortaliças e legumes.</p>
+                    <h3>Culturas que Impulsionam o País</h3>
+                    <p>A soja lidera o ranking dos produtos agrícolas brasileiros, seguida de perto pelo milho, cana-de-açúcar e café. Além desses pilares, o país brilha na produção de frutas tropicais exuberantes, como laranja, manga e abacaxi, e uma rica variedade de hortaliças e legumes frescos, que chegam diariamente à mesa dos brasileiros.</p>
                     
-                    <h3>Tecnologia no Campo</h3>
-                    <p>A agricultura de precisão, o uso de drones, sensores e sistemas de irrigação inteligentes têm revolucionado a produção agrícola, aumentando a produtividade e reduzindo o impacto ambiental. O Brasil é referência mundial em tecnologia agrícola tropical.</p>
+                    <h3>Inovação e Tecnologia no Campo</h3>
+                    <p>A revolução tecnológica chegou ao campo brasileiro. Com a adoção crescente da agricultura de precisão, o uso estratégico de drones, sensores inteligentes e sistemas de irrigação de ponta, a produção agrícola tem alcançado níveis inéditos de eficiência. Essas inovações não apenas elevam a produtividade, mas também minimizam o impacto ambiental, consolidando o Brasil como uma referência mundial em tecnologia agrícola tropical.</p>
                     
-                    <h2>Pecuária</h2>
-                    <p>O Brasil possui o maior rebanho comercial de bovinos do mundo, além de expressiva produção de aves, suínos e outros animais. A pecuária brasileira tem investido em melhoramento genético e manejo sustentável.</p>
+                    <h2>A Robustez da Pecuária Nacional</h2>
+                    <p>Além da agricultura, o Brasil ostenta o maior rebanho comercial de bovinos do planeta, complementado por uma expressiva produção de aves, suínos e outras espécies. A pecuária brasileira tem investido massivamente em programas de melhoramento genético e na implementação de práticas de manejo sustentável, visando a otimização da produção e o bem-estar animal.</p>
                     
-                    <h3>Sistemas de Produção</h3>
-                    <p>Desde a pecuária extensiva tradicional até sistemas intensivos e semi-intensivos, o Brasil apresenta diversos modelos de produção animal adaptados às diferentes regiões e condições climáticas do país.</p>
+                    <h3>Diversidade nos Sistemas de Produção</h3>
+                    <p>Do vasto pasto da pecuária extensiva tradicional aos modernos sistemas intensivos e semi-intensivos, o Brasil é um mosaico de modelos de produção animal. Essa adaptabilidade permite explorar as particularidades de cada região e condição climática do país, garantindo a oferta contínua de proteína de alta qualidade para o mercado interno e externo.</p>
                 </div>
                 
                 <div class="sidebar">
                     <div class="sidebar-widget">
                         <h3>Previsão do Tempo</h3>
                         <div class="weather-widget">
-                            <div class="weather-location">São Paulo, SP</div>
-                            <div class="weather-temp">28°C</div>
+                            <div class="weather-location">Ivaté, PR</div>
+                            <div class="weather-temp">22°C</div>
                             <div class="weather-desc">Parcialmente nublado</div>
                         </div>
                     </div>
@@ -108,15 +161,15 @@
     <!-- Seção de Destaques -->
     <section class="highlights-section">
         <div class="container">
-            <h2 class="section-title">Destaques da Produção</h2>
+            <h2 class="section-title">Destaques da Produção Nacional</h2>
             <div class="highlights-grid">
                 <div class="highlight-card">
                     <div class="highlight-img">
                         <img src="../images/destaque1.jpg" alt="Agricultura Sustentável">
                     </div>
                     <div class="highlight-content">
-                        <h3>Agricultura Sustentável</h3>
-                        <p>Práticas que preservam o meio ambiente e garantem a produtividade a longo prazo, como plantio direto e integração lavoura-pecuária-floresta.</p>
+                        <h3>Agricultura Sustentável: Cultivando o Futuro</h3>
+                        <p>Conheça as práticas inovadoras que preservam nossos recursos naturais e garantem a produtividade a longo prazo. Do plantio direto à integração lavoura-pecuária-floresta, o campo brasileiro abraça a sustentabilidade.</p>
                     </div>
                 </div>
                 <div class="highlight-card">
@@ -124,8 +177,8 @@
                         <img src="../images/destaque2.jpg" alt="Agricultura Familiar">
                     </div>
                     <div class="highlight-content">
-                        <h3>Agricultura Familiar</h3>
-                        <p>Responsável por grande parte da produção de alimentos que chegam à mesa dos brasileiros, a agricultura familiar é fundamental para a segurança alimentar.</p>
+                        <h3>Agricultura Familiar: A Base da Nossa Alimentação</h3>
+                        <p>Responsável por uma parcela significativa dos alimentos que chegam à mesa dos brasileiros, a agricultura familiar é um pilar fundamental para a segurança alimentar e o desenvolvimento rural do país.</p>
                     </div>
                 </div>
                 <div class="highlight-card">
@@ -133,8 +186,8 @@
                         <img src="../images/destaque3.jpg" alt="Inovação no Campo">
                     </div>
                     <div class="highlight-content">
-                        <h3>Inovação no Campo</h3>
-                        <p>Novas tecnologias e métodos de produção que aumentam a eficiência e reduzem o impacto ambiental da agricultura e pecuária.</p>
+                        <h3>Inovação no Campo: Fronteiras da Produtividade</h3>
+                        <p>Explore as novas tecnologias e métodos de produção que estão redefinindo a eficiência e reduzindo o impacto ambiental na agricultura e pecuária, impulsionando o agronegócio para o futuro.</p>
                     </div>
                 </div>
             </div>
@@ -168,14 +221,14 @@
                 <div class="footer-column">
                     <h3>Contato</h3>
                     <ul>
-                        <li>Email: contato@rotadaproducao.com.br</li>
-                        <li>Telefone: (11) 3456-7890</li>
-                        <li>Endereço: Av. Paulista, 1000 - São Paulo/SP</li>
+                       <li>Email: rodrigo.alfaro.santos@escola.pr.gov.br</li>
+                        <li>Telefone: (44) 44 92001-4522</li>
+                        <li>Colégio Estadual Rachel De Queiroz, Rua, 4351 - Centro, Ivaté - PR, 87525-000</li>
                     </ul>
                 </div>
             </div>
             <div class="copyright">
-                <p>&copy; 2025 Rota da Produção. Todos os direitos reservados.</p>
+                <p>&copy; Site criado para o Agrinho 2025.</p>
             </div>
         </div>
     </footer>
@@ -184,3 +237,4 @@
     <a href="#" class="back-to-top">↑</a>
 </body>
 </html>
+
